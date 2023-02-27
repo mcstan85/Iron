@@ -16,9 +16,9 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/bawara_mannn")
+    "SUPPORT_CHANNEL", "https://t.me/ekk_tarfa")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/akkkasimp")
+    "SUPPORT_GROUP", "https://t.me/marrkmusic")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -41,7 +41,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","мαяк ✗")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "2030475041").split())
+    map(int, getenv("OWNER_ID", "1846947483").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
