@@ -25,7 +25,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="•Mᴏɪ ᴏᴡɴᴇʀ•", user_id=OWNER),
+                text="•Mᴏɪ ᴏᴡɴᴇʀ•", url=f"https://t.me/marrk_owner"),
             InlineKeyboardButton(
                 text="•ɢʀᴏᴜᴩ•", url=f"{config.SUPPORT_GROUP}"
             ),
@@ -55,7 +55,8 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         [
             InlineKeyboardButton(
                 text="•Mᴏɪ ᴏᴡɴᴇʀ•",
-                user_id=OWNER)
+                url=f"https://t.me/marrk_owner",
+            )
         ],     
         ]
     return buttons
