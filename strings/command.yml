@@ -45,7 +45,7 @@ RESTART_COMMAND : ["restart"]
 # Sudo Command
 ADDSUDO_COMMAND : ["addsudo", "randi"]
 DELSUDO_COMMAND : ["delsudo", "bsdk"]
-SUDOUSERS_COMMAND : ["sudolist", "unkils"]
+SUDOUSERS_COMMAND : ["marklist", "markkils"]
 
 #Broadcast 
 BROADCAST_COMMAND : ["opbroadcast", "gcast", "ironcast"]
