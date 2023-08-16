@@ -1,6 +1,6 @@
 .env
 .cache
-logs.txt
+Marklogs.txt
 .DS_Store
 *.session
 raw_files/
