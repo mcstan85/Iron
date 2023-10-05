@@ -2,6 +2,7 @@ import asyncio
 import os
 
 import speedtest
+import wget
 from pyrogram import filters
 
 from strings import get_command
