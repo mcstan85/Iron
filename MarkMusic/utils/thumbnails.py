@@ -4,7 +4,6 @@ import random
 import aiohttp
 import asyncio
 import aiofiles
-import numpy as np
 
 from config import MUSIC_BOT_NAME, YOUTUBE_IMG_URL
 from MarkMusic import app
